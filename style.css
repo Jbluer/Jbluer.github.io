@@ -75,3 +75,13 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+.video-container iframe {
+    width: 100%;       /* 親要素の幅いっぱいに広げる */
+    height: auto;      /* 高さは自動調整 */
+    aspect-ratio: 16 / 9; /* 縦横比を16:9に固定 */
+}
+.animation-container iframe {
+    width: 100%;       /* 親要素の幅いっぱいに広げる */
+    height: auto;      /* 高さは自動調整 */
+    aspect-ratio: 16 / 9; /* 縦横比を16:9に固定 */
+}
